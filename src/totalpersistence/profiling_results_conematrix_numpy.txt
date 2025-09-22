@@ -1,0 +1,28 @@
+         5224 function calls (4916 primitive calls) in 0.118 seconds
+
+   Ordered by: cumulative time
+   List reduced from 114 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.118    0.118 /workspace/src/totalpersistance-fork/totalpersistence/src/totalpersistence/profiling_utils.py:28(test_conematrix_numpy)
+        1    0.028    0.028    0.092    0.092 /workspace/src/totalpersistance-fork/totalpersistence/src/totalpersistence/utils.py:125(conematrix_numpy)
+        1    0.039    0.039    0.039    0.039 /workspace/src/totalpersistance-fork/totalpersistence/src/totalpersistence/utils.py:148(<listcomp>)
+        1    0.000    0.000    0.025    0.025 /workspace/src/totalpersistance-fork/totalpersistence/src/totalpersistence/profiling_utils.py:10(create_test_data)
+        5    0.000    0.000    0.025    0.005 {built-in method builtins.print}
+        2    0.000    0.000    0.024    0.012 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:1685(_array_str_implementation)
+        2    0.000    0.000    0.024    0.012 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:605(array2string)
+        2    0.000    0.000    0.024    0.012 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:550(wrapper)
+        2    0.000    0.000    0.024    0.012 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:567(_array2string)
+        1    0.000    0.000    0.024    0.024 /usr/local/lib/python3.10/dist-packages/numpy/lib/_twodim_base_impl.py:1041(triu_indices)
+        1    0.000    0.000    0.024    0.024 /usr/local/lib/python3.10/dist-packages/numpy/lib/_twodim_base_impl.py:376(tri)
+        1    0.024    0.024    0.024    0.024 {method 'outer' of 'numpy.ufunc' objects}
+        2    0.000    0.000    0.023    0.011 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:496(_get_format_function)
+        2    0.000    0.000    0.023    0.011 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:455(<lambda>)
+        2    0.000    0.000    0.023    0.011 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:961(__init__)
+        2    0.021    0.010    0.023    0.011 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:987(fillFormat)
+        6    0.000    0.000    0.002    0.000 /usr/local/lib/python3.10/dist-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
+        6    0.002    0.000    0.002    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        2    0.000    0.000    0.001    0.001 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:828(_formatArray)
+    308/2    0.001    0.000    0.001    0.001 /usr/local/lib/python3.10/dist-packages/numpy/_core/arrayprint.py:837(recurser)
+
+
